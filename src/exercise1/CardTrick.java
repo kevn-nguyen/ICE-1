@@ -67,15 +67,12 @@ public class CardTrick {
     
     private static void printInfo() {
         
-        //I'm Done!!!!!!
         
         System.out.println("My name is Kevin Nguyen.");
 	System.out.println("I was born in Canada but my parents are orignally from Vietnam.");
         
         System.out.println("My hobbies are: Snowboarding, Mountain-biking, Video games.");
 	System.out.println("I believe Netflix's new password sharing policty is stupid.");
-	System.out.println("I hope Netflix goes under!");
-	System.out.println("This assignment was more difficult to complete than I thought.");
         
     }
 }
