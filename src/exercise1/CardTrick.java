@@ -70,6 +70,7 @@ public class CardTrick {
         System.out.println("My hobbies are: Snowboarding, Mountain-biking, Video games.");
 	System.out.println("I believe Netflix's new password sharing policty is stupid.");
 	System.out.println("I hope Netflix goes under!");
+	System.out.println("This assignment was more difficult to complete than I thought.");
         
     }
 }
