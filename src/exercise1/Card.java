@@ -43,8 +43,4 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }  
-
-    void setValue(String hearts) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-}
+}    
