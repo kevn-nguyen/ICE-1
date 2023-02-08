@@ -20,25 +20,25 @@ public class CardTrick {
             
             hand[0]= new Card();
             hand[0].setValue(1);
-            hand[0].setValue("Hearts");        
+            hand[0].setSuit("Hearts");     
             hand[1]= new Card();
             hand[1].setValue(2);
-            hand[1].setValue("Clubs");        
+            hand[1].setSuit("Clubs");        
             hand[2]= new Card();
             hand[2].setValue(3);
-            hand[2].setValue("Diomonds");
+            hand[2].setSuit("Diomonds");
             hand[3]= new Card();
             hand[3].setValue(4);
-            hand[3].setValue("Spades");
+            hand[3].setSuit("Spades");
             hand[4]= new Card();
             hand[4].setValue(5);
-            hand[4].setValue("Clubs");
+            hand[4].setSuit("Clubs");
             hand[5]= new Card();
             hand[5].setValue(12);
-            hand[5].setValue("Hearts");
+            hand[5].setSuit("Hearts");
             hand[6]= new Card();
             hand[6].setValue(11);
-            hand[6].setValue("Hearts");
+            hand[6].setSuit("Hearts");
         }
 
         Scanner input = new Scanner(System.in);
@@ -58,12 +58,11 @@ public class CardTrick {
 /**
  * A simple method to print out personal information. Follow the instructions to 
  * replace this information with your own.
- * @author Paul Bonenfant Jan 2022
+ * @author Kevin Nguyen Jan 2022
  */
     
     private static void printInfo() {
         
-        //I'M DONE
         
         System.out.println("My name is Kevin Nguyen.");
 	System.out.println("I was born in Canada but my parents are orignally from Vietnam.");
