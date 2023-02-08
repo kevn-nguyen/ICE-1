@@ -42,9 +42,13 @@ public class CardTrick {
         }
 
         Scanner input = new Scanner(System.in);
+        Scanner input1 = new Scanner(System.in);
         
+        System.out.println("Enter an integer value:");
         int userValue =input.nextInt();
-        String userSuit= input.nextLine();
+        
+        System.out.println("Enter a suit name.");
+        String userSuit= input1.nextLine();
         
         for(int i =0;i<hand.length;i++){
             if(hand[i].getValue()==userValue &&
